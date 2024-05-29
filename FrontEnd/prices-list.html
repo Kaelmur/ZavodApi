@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prices</title>
+</head>
+<body>
+<section>
+    <a href="" id="logout-btn" >Logout</a>
+    <a href="login.html" id="login-btn" >Login</a>
+</section>
+    <h1>Prices</h1>
+    <section id="prices-wrapper">
+    </section>
+    <section>
+        <h1>Add Price</h1>
+    <form id="add-price-form">
+        <label for="fraction">Fraction:</label>
+        <select id="fraction" name="fraction">
+            <option value="0-5">0-5</option>
+            <option value="5-20">5-20</option>
+            <option value="20-40">20-40</option>
+            <option value="5-40">5-40</option>
+            <option value="40-70">40-70</option>
+            <option value="Rubble stone">Бутовый камень</option>
+        </select><br><br>
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price"><br><br>
+        <button type="submit">Add Price</button>
+    </form>
+    </section>
+</body>
+<script src="main.js"></script>
+</html>

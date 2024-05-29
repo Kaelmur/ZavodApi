@@ -6,4 +6,4 @@ class PriceSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = FractionPrice
-        fields = ['fraction', 'price']
+        fields = '__all__'
